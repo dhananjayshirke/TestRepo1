@@ -1,0 +1,19 @@
+{"success":"true","keys":[{"nodeId":"41420768","licenseKey":"69CC-BDD3-A14D-3322-4FB2-843C-CAFD-58AC","licenseType":"collab-fixed","licenseToken":"trial","expiresDate":"2023-10-30","upgradeDate":"2023-10-30","seats":100,"generatedBy":"Justin Collier"}]}
+
+https://licensing.codecollaborator.com/flexera-license-encode.php?nodeId=41420768&licenseType=collab-fixed&expiresDate=2024-10-30&upgradeDate=2024-10-30&seats=100&licenseToken=trial&generatedBy=Justin%20Collier
+
+
+https://licensing.codecollaborator.com/flexera-license-encode.php?nodeId=3AFE07D8&licenseType=collab-fixed&expiresDate=2024-10-30&upgradeDate=2024-10-30&seats=100&licenseToken=trial&generatedBy=Justin%20Collier
+
+
+
+##############################
+
+SELECT metadatadescription_id, metadatadescription_title, metadatavaluecharacter_value FROM metadatadescription
+join metadatavaluecharacter on metadatadescription_id=metadatavaluecharacter_fieldid where metadatadescription_title like "%sso%";
+
+update metadatavaluecharacter  set metadatavaluecharacter_value="N" where metadatavaluecharacter_fieldid="969";
+
+update user set user_password="21232f297a57a5a743894a0e4a801fc3" where user_login="admin"
+
+###############################
